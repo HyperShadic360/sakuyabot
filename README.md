@@ -74,7 +74,7 @@ If you are not a developer all you have to is to copy my pre-coded project and y
 click this button.
 Add the copied tokens and prefix.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HyperShadic360/sakuyabot/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HyperShadic360/music-discord-heroku-bot/tree/master)
 
 ![Make your own music Discord bot for FREE](/assets/img/contents/discord-tutorial-10.png "Make your own music Discord bot for FREE")
 

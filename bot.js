@@ -13,7 +13,14 @@ bot.music = require("discord.js-musicbot-addon");
 bot.music.start(bot, {
     // Set the api key used for YouTube.
     // This is required to run the bot.
+    youtubeKey: process.env.BOT_YOUTUBE_TOKEN,
     botPrefix: PREFIX,
+
+    maxQueueSize: 0,
+    anyoneCanSkip: true,
+    messageHelp: true,
+    anyoneCanAdjust: true,
+    anyoneCanLeave: true
 
 });
 
