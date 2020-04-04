@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = "$";
+const prefix = "process.env.PREFIX";
 
 client.on('ready', () => {
  console.log(`Logged in as ${client.user.tag}!`);
@@ -37,4 +37,4 @@ client.on('message', msg => {
     channel.send(`Welcome ${member}!`);
   });
 
-client.login('NjkyNzU1NDQxMDgzNDgyMTQy.XnzTVA.bJGTPilQ6xxUCMK_n2sXN17FF_o');
+client.login('process.env.BOT_TOKEN');
