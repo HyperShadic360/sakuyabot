@@ -37,4 +37,4 @@ client.on('message', msg => {
     channel.send(`Welcome ${member}!`);
   });
 
-client.login('process.env.BOT_TOKEN');
+client.login(process.env.BOT_TOKEN);
