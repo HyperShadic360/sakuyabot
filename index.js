@@ -32,7 +32,7 @@ client.on('message', msg => {
     }
  
     if (cmd === "watchanime") {
-        msg.channel.send("Most of the anime on the list can be found on Crunchyroll. However Crunchyroll is not guaranteed to have all of the shows, due to licensing issues. If you do not have or wish to pay for Crunchyroll, you can use kissanime.ru. (This is considered pirating, if your moral code opposes that.) While this website has every anime (and some honorary anime) ever released, there are many, many ads. To combat this, you will need a special adblock, as normal ones are blocked on the site. A guide to do this can be found at https://www.reddit.com/r/KissAnime/comments/fph29m/2020guide_how_to_bypass_the_adblock_ban/");
+        msg.channel.send("Most of the anime on the list can be found on Crunchyroll. However Crunchyroll is not guaranteed to have all of the shows, due to licensing issues. If you do not have or wish to pay for Crunchyroll, you can use Kissanime (http://kissanime.ru/). (This is considered pirating, if your moral code opposes that.) While this website has every anime (and some honorary anime) ever released, there are many, many ads. To combat this, you will need a special adblock, as normal ones are blocked on the site. A guide to do this can be found at https://www.reddit.com/r/KissAnime/comments/fph29m/2020guide_how_to_bypass_the_adblock_ban/");
     }
  });
 
