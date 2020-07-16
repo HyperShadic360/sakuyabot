@@ -39,7 +39,7 @@ client.on('message', msg => {
  client.on('guildMemberAdd', member => {
     const channel = member.guild.channels.cache.find(c => c.name === 'welcome'); // change this to the channel name you want to send the greeting to
     if (!channel) return;
-    channel.send(`Welcome ${member}! Please enjoy your stay. Visit the bot-help channel for information on how to use the bots.`);
+    channel.send(`Welcome ${member}! Please enjoy your stay in this land of degenerates. Visit the bot-help channel for information on how to use the bots.`);
   });
 
 client.login(token);
